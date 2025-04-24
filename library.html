@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venda Hustler's Library</title>
+    <link rel="stylesheet" href="styles/library.css">
+</head>
+<body>
+    <button id="newBookBtn">New Book</button>
+  <dialog id="bookDialog">
+    <form id="bookForm">
+      <label>Title: <input type="text" name="title" required></label>
+      <label>Author: <input type="text" name="author" required></label>
+      <label>Pages: <input type="number" name="pages" required></label>
+      <label>Read:
+        <select name="read">
+          <option value="true">Yes</option>
+          <option value="false">No</option>
+        </select>
+      </label>
+      <button type="submit">Add Book</button>
+      <button type="button" class="close">Cancel</button>
+    </form>
+  </dialog>
+
+  <div class="book-container" id="bookContainer"></div>
+  <script src="scripts/library.js"></script>
+</body>
+</html>

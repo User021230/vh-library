@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: #f5f5f5;
+  }
+
+  .book-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .book-card {
+    background: white;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 200px;
+    position: relative;
+  }
+
+  .book-card h3 {
+    margin: 0;
+  }
+
+  .book-card button {
+    margin-top: 10px;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .remove-btn {
+    background-color: #e74c3c;
+    color: white;
+  }
+
+  .toggle-read-btn {
+    background-color: #3498db;
+    color: white;
+  }
+
+  #newBookBtn {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    background: #2ecc71;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  dialog {
+    padding: 20px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  input, select {
+    padding: 8px;
+  }
+
+  .close {
+    background: #aaa;
+  }
